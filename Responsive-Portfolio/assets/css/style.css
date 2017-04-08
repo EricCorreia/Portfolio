@@ -238,15 +238,24 @@ input[type=submit] {
   border: 0 none;
 }
 
+
+/*Basiclly I need to make sizing and layout for the new screen sizes, took me longer to understand then would of liked*/
+
 @media screen and (max-width: 980px){
   div {
-    background-color: blue;
+    
+
   }
 }
-@media screen (max-width: 768px){
-  
+
+@media screen and (max-width: 768px){
+  div {
+
+  }
 }
 
-@media screen (max-width: 640px){
-  
+@media screen and (max-width: 640px){
+  div {
+    
+  }
 }
